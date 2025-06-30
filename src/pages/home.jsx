@@ -32,7 +32,7 @@ function HomePage() {
                     </div>
 
                     {/* Cards container with improved responsive behavior */}
-                    <div className="flex justify-between max-w-5xl mx-auto">
+                    <div className="flex flex-row max-sm:flex-col justify-between max-w-5xl mx-auto ">
                         <QuickAccessCard
                             to="/projects"
                             icon={<FileText className="w-8 h-8" />}
